@@ -1,0 +1,25 @@
+@media (max-width: 820px) {
+  .nav-menu {
+    width: calc(100% - 2rem);
+  }
+
+  .nav-menu a {
+    width: 100%;
+  }
+}
+
+@media (max-width: 560px) {
+  .contact-grid,
+  .github-grid,
+  .project-grid,
+  .skills-grid,
+  .solutions-grid,
+  .stack-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .theme-toggle {
+    margin-top: 0.25rem;
+  }
+}
+
